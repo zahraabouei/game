@@ -1,7 +1,31 @@
+html {
+  font-size: 62.5%;
+  background-color: #000;
+}
 :root {
   --color-primary: #000;
   --color-secodery: #ffffff;
   --color-acsent: #dc7000;
   --color-space: #898989;
   --color-blocks: #e5e5e5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-secodery);
+  font-size: 1.6 rem;
+}
+h1,
+h2,
+h3 {
+  color: var(--color-secodery);
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3.5 rem;
+}
+h3 {
+  font-size: 2 rem;
 }
