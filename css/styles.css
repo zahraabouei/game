@@ -1,3 +1,4 @@
+/*Typography */
 html {
   font-size: 62.5%;
   background-color: #000;
@@ -47,5 +48,28 @@ p {
   }
   h3 {
     font-size: 3rem;
+  }
+}
+/* Links*/
+a {
+  text-decoration: none;
+}
+.link-icon {
+  color: var(--color-acsent);
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 200;
+}
+.link-icon::after {
+  content: "--->";
+  margin-left: 5px;
+  transition: margin 0.5s;
+}
+.link-icon:hover::after {
+  margin-left: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .link-icon {
+    font-size: 1.2rem;
   }
 }
