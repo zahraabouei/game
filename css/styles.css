@@ -55,13 +55,20 @@ a {
   text-decoration: none;
 }
 .link-icon {
-  color: var(--color-acsent);
-  text-transform: capitalize;
-  font-size: 2rem;
+  color: var(--color-secodery);
+  background-color: var(--color-acsent);
+  text-transform: uppercase;
+  font-size: 1.6rem;
   font-weight: 200;
+  padding: 1.5rem 2rem;
+  align-content: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: inline-block;
+  border-radius: 1rem;
 }
 .link-icon::after {
-  content: "--->";
+  white-space: nowrap;
   margin-left: 5px;
   transition: margin 0.5s;
 }
@@ -72,4 +79,11 @@ a {
   .link-icon {
     font-size: 1.2rem;
   }
+}
+
+/*Badges*/
+.badge {
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  white-space: nowrap;
 }
